@@ -59,7 +59,7 @@ Frontend: http://localhost:3000
 Backend API: http://localhost:5000
 
 MongoDB: Available internally on mongo:27017
-
+```
 📂 Environment Variables
 Backend (.env):
 
