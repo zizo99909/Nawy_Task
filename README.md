@@ -49,7 +49,7 @@ NawyTask/
 
 > Make sure Docker & Docker Compose are installed.
 
-``bash
+`bash
 git clone https://github.com/yourusername/NawyTask.git
 cd NawyTask
 docker-compose up --build
