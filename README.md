@@ -1,63 +1,59 @@
-🏠 Nawy Apartments Task
-A full-stack web application for listing and managing apartments. Built using Next.js (frontend), Node.js with TypeScript (backend), MongoDB Atlas (database), and containerized using Docker Compose.
+# 🏠 Nawy Apartments Task
 
-📦 Project Structure
-bash
-Copy
-Edit
+A full-stack web application for listing and managing apartments. Built using **Next.js** (frontend), **Node.js with TypeScript** (backend), **MongoDB Atlas** (database), and containerized using **Docker Compose**.
+
+---
+
+## 📦 Project Structure
+
 NawyTask/
-├── ApartmentsBackend/         # Node.js + TypeScript backend API
-├── apartments-app-frontend/   # Next.js frontend
-├── docker-compose.yml         # Compose file for orchestrating frontend, backend, and MongoDB
-🚀 Features
-Frontend
+├── ApartmentsBackend/ # Node.js + TypeScript backend API
+├── apartments-app-frontend/ # Next.js frontend
+├── docker-compose.yml # Compose file for orchestrating frontend, backend, and MongoDB
 
-Built with Next.js and React
+---
 
-Lists apartments with formatted pricing and size
+## 🚀 Features
 
-Responsive design and modern UI
+- **Frontend**
+  - Built with **Next.js** and React
+  - Lists apartments with formatted pricing and size
+  - Responsive design and modern UI
 
-Backend
+- **Backend**
+  - **Node.js** with **TypeScript**
+  - RESTful API for apartment listings
+  - Connected to **MongoDB Atlas**
+  - Swagger API documentation ready (optional)
 
-Node.js with TypeScript
+- **Database**
+  - Uses MongoDB Atlas cloud cluster
 
-RESTful API for apartment listings
+- **DevOps**
+  - Fully containerized using Docker
+  - Easy setup with `docker-compose`
+  - Hot-reload in development
 
-Connected to MongoDB Atlas
+---
 
-Swagger API documentation ready (optional)
+## 🛠️ Technologies Used
 
-Database
+- **Frontend**: Next.js, React, TypeScript, CSS Modules
+- **Backend**: Node.js, Express, TypeScript, Mongoose
+- **Database**: MongoDB (Cloud via Atlas)
+- **DevOps**: Docker, Docker Compose
 
-Uses MongoDB Atlas cloud cluster
+---
 
-DevOps
+## 🐳 Running with Docker
 
-Fully containerized using Docker
+> Make sure Docker & Docker Compose are installed.
 
-Easy setup with docker-compose
-
-Hot-reload in development
-
-🛠️ Technologies Used
-Frontend: Next.js, React, TypeScript, CSS Modules
-
-Backend: Node.js, Express, TypeScript, Mongoose
-
-Database: MongoDB (Cloud via Atlas)
-
-DevOps: Docker, Docker Compose
-
-🐳 Running with Docker
-Make sure Docker & Docker Compose are installed.
-
-bash
-Copy
-Edit
+``bash
 git clone https://github.com/yourusername/NawyTask.git
 cd NawyTask
 docker-compose up --build
+
 Frontend: http://localhost:3000
 
 Backend API: http://localhost:5000
@@ -78,7 +74,7 @@ env
 Copy
 Edit
 NEXT_PUBLIC_API_URL=http://localhost:5000
-Make sure to exclude .env files from Git using .gitignore.
+Be sure to exclude .env files in .gitignore.
 
 🧪 Available Scripts
 Backend
@@ -99,27 +95,26 @@ npm start        # Start production frontend
 Method	Endpoint	Description
 GET	/apartments	List all apartments
 POST	/apartments	Add new apartment
-GET	/apartments/{id}	Get apartment by ID
 
 🧰 Developer Notes
-Uses ts-node-dev for backend dev server
+Uses ts-node-dev for backend development
 
-Hot reload is enabled for both frontend and backend
+Hot reload is enabled
 
 MongoDB uses cloud connection (Atlas)
 
 🧹 Future Improvements
-Add authentication (e.g., JWT)
+Add authentication (JWT or OAuth)
 
-Add filtering/sorting on listings
+Filtering and sorting features
 
-Improve API documentation with Swagger
+Swagger API documentation
 
-Deploy with CI/CD
+Add CI/CD pipeline
 
 📬 Contact
-For any inquiries or feedback, feel free to reach out:
+For any inquiries or feedback:
 
-GitHub: @zizo99909
+GitHub: @yourusername
 
-Email: ziyadzakii@outlook.com
+Email: your.email@example.com
