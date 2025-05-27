@@ -68,6 +68,7 @@ Copy
 Edit
 PORT=5000
 MONGO_URI=your_mongo_connection_string
+
 Frontend (.env.local):
 
 env
@@ -115,6 +116,6 @@ Add CI/CD pipeline
 📬 Contact
 For any inquiries or feedback:
 
-GitHub: @yourusername
+GitHub: @zizo99909
 
-Email: your.email@example.com
+Email: ziyadzakii@outlook.com
