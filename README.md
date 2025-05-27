@@ -38,7 +38,7 @@ NawyTask/
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: Next.js, React, TypeScript, CSS Modules
+- **Frontend**: Next.js, React, MUI
 - **Backend**: Node.js, Express, TypeScript, Mongoose
 - **Database**: MongoDB (Cloud via Atlas)
 - **DevOps**: Docker, Docker Compose
@@ -63,19 +63,13 @@ MongoDB: Available internally on mongo:27017
 📂 Environment Variables
 Backend (.env):
 
-env
-Copy
-Edit
 PORT=5000
-MONGO_URI=your_mongo_connection_string
+MONGO_URI=mongodb+srv://apartmentsApp:zizozizo99@cluster0.lm2miuj.mongodb.net/
 
 Frontend (.env.local):
 
-env
-Copy
-Edit
-NEXT_PUBLIC_API_URL=http://localhost:5000
-Be sure to exclude .env files in .gitignore.
+NEXT_PUBLIC_API_URL='https://apartmentsbackend.onrender.com'
+
 
 🧪 Available Scripts
 Backend
